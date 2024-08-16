@@ -1,0 +1,13 @@
+Given 2 integers numerator and denominator of a fraction , return the fraction in string format
+
+if the fractional part is repeating, enclose the repeating part in parantheses
+
+roundDirtyFractions(long numerator, long denominator)
+
+roundDirtyFractions(1l, 2l) = "0.5"
+
+roundDirtyFractions(2l, 1l) = "2"
+
+roundDirtyFractions(1l, 3l) = "0.(3)"
+
+roundDirtyFractions(1l, 75l) = "0.01(3)"
