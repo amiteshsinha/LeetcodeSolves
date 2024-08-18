@@ -58,6 +58,7 @@
 - [/spiral/matrix2/SpiralMatrix2.md](src/main/java/com/leetcode/spiral/matrix2/SpiralMatrix2.md)
 - [/containDuplicates/ContainsDuplicate.md](src/main/java/com/leetcode/containDuplicates/ContainsDuplicate.md)
 - [/kthSmallestPairDistance/KthSmallestPairDistance.md](src/main/java/com/leetcode/kthSmallestPairDistance/KthSmallestPairDistance.md)
+- [/NoOfSeniorCitizens/NoOfSeniorCitizens.md](src/main/java/com/leetcode/NoOfSeniorCitizens/NoOfSeniorCitizens.md)
 - [/contiguousSubarraySum/ContiguousSubarraySum.md](src/main/java/com/leetcode/contiguousSubarraySum/ContiguousSubarraySum.md)
 - [/sortColors/SortColors.md](src/main/java/com/leetcode/sortColors/SortColors.md)
 - [/reverseBits/ReverseBits.md](src/main/java/com/leetcode/reverseBits/ReverseBits.md)
