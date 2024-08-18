@@ -1,6 +1,6 @@
-# Project Title
+# Leetcode Solves
 
-## Subdirectory READMEs
+## Leetcode problems : 
 
 - [LeetCodeRecommendations.md](LeetCodeRecommendations.md)
 - [/NoOfFlowersInFullBloom/NoOfFlowersFullBloom.md](src/main/java/com/leetcode/NoOfFlowersInFullBloom/NoOfFlowersFullBloom.md)

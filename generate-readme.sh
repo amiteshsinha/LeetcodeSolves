@@ -7,9 +7,9 @@ MAIN_README="README.md"
 PREFIX_TO_REMOVE="src/main/java/com/leetcode"
 
 # Start with a header
-echo "# Project Title" > $MAIN_README
+echo "# Leetcode Solves" > $MAIN_README
 echo "" >> $MAIN_README
-echo "## Subdirectory READMEs" >> $MAIN_README
+echo "## Leetcode problems : " >> $MAIN_README
 echo "" >> $MAIN_README
 
 # Get the absolute path of the current directory
