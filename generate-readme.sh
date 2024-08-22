@@ -9,6 +9,10 @@ PREFIX_TO_REMOVE="src/main/java/com/leetcode"
 # Start with a header
 echo "# Leetcode Solves" > $MAIN_README
 echo "" >> $MAIN_README
+echo "A collection of all the leetcode problems I have solved till date. It will always be a work in progress. What this contains - " >> $MAIN_README
+echo "1. Link to the original leetcode problem"  >> $MAIN_README
+echo "2. All my approaches"  >> $MAIN_README
+echo "3. Test cases for the problem"  >> $MAIN_README
 echo "## Leetcode problems : " >> $MAIN_README
 echo "" >> $MAIN_README
 
