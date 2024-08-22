@@ -33,4 +33,9 @@ public abstract class AbstractParent {
     public void should_give_correct_output3() {
         Assert.assertEquals(findComplement(4), 3);
     }
+
+    @Test
+    public void should_give_correct_output4() {
+        Assert.assertEquals(findComplement(7), 0);
+    }
 }
