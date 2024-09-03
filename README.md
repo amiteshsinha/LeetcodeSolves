@@ -10,6 +10,7 @@ contain -
 
 - [LeetCodeRecommendations.md](LeetCodeRecommendations.md)
 - [/NoOfFlowersInFullBloom/NoOfFlowersFullBloom.md](src/main/java/com/leetcode/NoOfFlowersInFullBloom/NoOfFlowersFullBloom.md)
+- [/mostStonesRemoved/MostStonesRemovedWithSameRowCol.md](src/main/java/com/leetcode/mostStonesRemoved/MostStonesRemovedWithSameRowCol.md)
 - [/xor/decodedXorArray/DecodedXorArray.md](src/main/java/com/leetcode/xor/decodedXorArray/DecodedXorArray.md)
 - [/xor/countTripletsOfXor/CountTripletsThatCanFormArrOfEqualXor.md](src/main/java/com/leetcode/xor/countTripletsOfXor/CountTripletsThatCanFormArrOfEqualXor.md)
 - [/xor/findOriginalArrOfPrefixXor/FindOrgArrOfPrefixXor.md](src/main/java/com/leetcode/xor/findOriginalArrOfPrefixXor/FindOrgArrOfPrefixXor.md)
@@ -65,6 +66,7 @@ contain -
 - [/spiral/matrix2/SpiralMatrix2.md](src/main/java/com/leetcode/spiral/matrix2/SpiralMatrix2.md)
 - [/containDuplicates/ContainsDuplicate.md](src/main/java/com/leetcode/containDuplicates/ContainsDuplicate.md)
 - [/kthSmallestPairDistance/KthSmallestPairDistance.md](src/main/java/com/leetcode/kthSmallestPairDistance/KthSmallestPairDistance.md)
+- [/sumOfDigitsOfString/SumOfDigitsOfStringAfterConvert.md](src/main/java/com/leetcode/sumOfDigitsOfString/SumOfDigitsOfStringAfterConvert.md)
 - [/NoOfSeniorCitizens/NoOfSeniorCitizens.md](src/main/java/com/leetcode/NoOfSeniorCitizens/NoOfSeniorCitizens.md)
 - [/contiguousSubarraySum/ContiguousSubarraySum.md](src/main/java/com/leetcode/contiguousSubarraySum/ContiguousSubarraySum.md)
 - [/sortColors/SortColors.md](src/main/java/com/leetcode/sortColors/SortColors.md)
