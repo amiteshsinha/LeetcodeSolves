@@ -31,5 +31,6 @@ public abstract class AbstractParent {
 
     @Test
     public void should_give_correct_output3() {
+        assertEquals(construct2DArray(new int[]{1,2,3,4,5,6},2,3), new int[][]{{1,2,3},{4,5,6}});
     }
 }
