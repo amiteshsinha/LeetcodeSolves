@@ -105,6 +105,7 @@ contain -
 - [/sqrtx/SquareRootOfX.md](src/main/java/com/leetcode/sqrtx/SquareRootOfX.md)
 - [/heightChecker/HeightChecker.md](src/main/java/com/leetcode/heightChecker/HeightChecker.md)
 - [/isomorphicStrings/IsomorphicStrings.md](src/main/java/com/leetcode/isomorphicStrings/IsomorphicStrings.md)
+- [/studentReplaceChalk/StudentReplaceChalk.md](src/main/java/com/leetcode/studentReplaceChalk/StudentReplaceChalk.md)
 - [/IntegerToEnglishWords/IntegerToEnglishWords.md](src/main/java/com/leetcode/IntegerToEnglishWords/IntegerToEnglishWords.md)
 - [/majorityElement/MajorityElement.md](src/main/java/com/leetcode/majorityElement/MajorityElement.md)
 - [/excelSheetColNoToTitle/ExcelSheetColTitle.md](src/main/java/com/leetcode/excelSheetColNoToTitle/ExcelSheetColTitle.md)
