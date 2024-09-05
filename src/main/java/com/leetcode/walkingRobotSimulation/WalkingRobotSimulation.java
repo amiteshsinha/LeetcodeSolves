@@ -80,7 +80,6 @@ public class WalkingRobotSimulation extends AbstractParent {
         return end;
     }
 
-
     private void changeCurrDir(int i) {
         if (currDir == "+Y") {
             currDir = i == -2 ? "-X" : "+X";

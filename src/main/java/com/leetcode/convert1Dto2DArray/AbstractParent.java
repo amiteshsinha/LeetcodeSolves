@@ -33,4 +33,9 @@ public abstract class AbstractParent {
     public void should_give_correct_output3() {
         assertEquals(construct2DArray(new int[]{1,2,3,4,5,6},2,3), new int[][]{{1,2,3},{4,5,6}});
     }
+
+    @Test
+    public void should_give_correct_output4() {
+        assertEquals(construct2DArray(new int[]{1,2},1,1), new int[][]{});
+    }
 }
