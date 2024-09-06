@@ -46,6 +46,7 @@ contain -
 - [/linkedList/deleteNodeLinkedList/deleteNodeLinkedList.md](src/main/java/com/leetcode/linkedList/deleteNodeLinkedList/deleteNodeLinkedList.md)
 - [/linkedList/removeDuplicateSorted/RemoveDuplicateFromSortedLinkedList.md](src/main/java/com/leetcode/linkedList/removeDuplicateSorted/RemoveDuplicateFromSortedLinkedList.md)
 - [/linkedList/removeNodesFromLinkedList/m2487/RemoveNodesFromLinkedList.md](src/main/java/com/leetcode/linkedList/removeNodesFromLinkedList/m2487/RemoveNodesFromLinkedList.md)
+- [/linkedList/deleteNodesLinkedListPresentArray/DeleteNodesFromLinkedListPresentInArray.md](src/main/java/com/leetcode/linkedList/deleteNodesLinkedListPresentArray/DeleteNodesFromLinkedListPresentInArray.md)
 - [/linkedList/minDistanceBtwnCriticalPoints/MinDistanceBetweenCriticalPoints.md](src/main/java/com/leetcode/linkedList/minDistanceBtwnCriticalPoints/MinDistanceBetweenCriticalPoints.md)
 - [/mergeNodesInBetweenZeros/MergeNodesBetweenZeros.md](src/main/java/com/leetcode/mergeNodesInBetweenZeros/MergeNodesBetweenZeros.md)
 - [/passThePillow/PassThePillow.md](src/main/java/com/leetcode/passThePillow/PassThePillow.md)
