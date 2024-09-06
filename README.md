@@ -49,6 +49,7 @@ contain -
 - [/linkedList/deleteNodesLinkedListPresentArray/DeleteNodesFromLinkedListPresentInArray.md](src/main/java/com/leetcode/linkedList/deleteNodesLinkedListPresentArray/DeleteNodesFromLinkedListPresentInArray.md)
 - [/linkedList/minDistanceBtwnCriticalPoints/MinDistanceBetweenCriticalPoints.md](src/main/java/com/leetcode/linkedList/minDistanceBtwnCriticalPoints/MinDistanceBetweenCriticalPoints.md)
 - [/mergeNodesInBetweenZeros/MergeNodesBetweenZeros.md](src/main/java/com/leetcode/mergeNodesInBetweenZeros/MergeNodesBetweenZeros.md)
+- [/numberOf1Bits/NumberOf1Bits.md](src/main/java/com/leetcode/numberOf1Bits/NumberOf1Bits.md)
 - [/passThePillow/PassThePillow.md](src/main/java/com/leetcode/passThePillow/PassThePillow.md)
 - [/brokenCalculator/BrokenCalculator.md](src/main/java/com/leetcode/brokenCalculator/BrokenCalculator.md)
 - [/sumOfFloorForAllPairs/SumOfFloorForAllPairs.md](src/main/java/com/leetcode/sumOfFloorForAllPairs/SumOfFloorForAllPairs.md)
