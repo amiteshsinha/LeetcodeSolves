@@ -44,6 +44,7 @@ contain -
 - [/kthLargestElementInStream/KthLargest.md](src/main/java/com/leetcode/kthLargestElementInStream/KthLargest.md)
 - [/appendCharactersStringSubsequence/AppendCharacterForSubsequence.md](src/main/java/com/leetcode/appendCharactersStringSubsequence/AppendCharacterForSubsequence.md)
 - [/linkedList/deleteNodeLinkedList/deleteNodeLinkedList.md](src/main/java/com/leetcode/linkedList/deleteNodeLinkedList/deleteNodeLinkedList.md)
+- [/linkedList/IncertHCFInLinkedList/InsertHCFInLinkedList.md](src/main/java/com/leetcode/linkedList/IncertHCFInLinkedList/InsertHCFInLinkedList.md)
 - [/linkedList/removeDuplicateSorted/RemoveDuplicateFromSortedLinkedList.md](src/main/java/com/leetcode/linkedList/removeDuplicateSorted/RemoveDuplicateFromSortedLinkedList.md)
 - [/linkedList/removeNodesFromLinkedList/m2487/RemoveNodesFromLinkedList.md](src/main/java/com/leetcode/linkedList/removeNodesFromLinkedList/m2487/RemoveNodesFromLinkedList.md)
 - [/linkedList/reverseLinkedList/ReverseLinkedList.md](src/main/java/com/leetcode/linkedList/reverseLinkedList/ReverseLinkedList.md)
