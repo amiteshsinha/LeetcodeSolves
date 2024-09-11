@@ -9,6 +9,7 @@ contain -
 ## Leetcode problems : 
 
 - [LeetCodeRecommendations.md](LeetCodeRecommendations.md)
+- [/minBitFlitsConvertNo/MinBitFlitsToConvertNo.md](src/main/java/com/leetcode/minBitFlitsConvertNo/MinBitFlitsToConvertNo.md)
 - [/NoOfFlowersInFullBloom/NoOfFlowersFullBloom.md](src/main/java/com/leetcode/NoOfFlowersInFullBloom/NoOfFlowersFullBloom.md)
 - [/mostStonesRemoved/MostStonesRemovedWithSameRowCol.md](src/main/java/com/leetcode/mostStonesRemoved/MostStonesRemovedWithSameRowCol.md)
 - [/xor/decodedXorArray/DecodedXorArray.md](src/main/java/com/leetcode/xor/decodedXorArray/DecodedXorArray.md)
@@ -84,6 +85,7 @@ contain -
 - [/successfulPairSpellsPotions/SuccessfulPairOfSpellsAndPotions.md](src/main/java/com/leetcode/successfulPairSpellsPotions/SuccessfulPairOfSpellsAndPotions.md)
 - [/noOfAtoms/NoOfAtoms.md](src/main/java/com/leetcode/noOfAtoms/NoOfAtoms.md)
 - [/binarySearchTree/lca2nodes/LCAOf2Nodes.md](src/main/java/com/leetcode/binarySearchTree/lca2nodes/LCAOf2Nodes.md)
+- [/binarySearchTree/convertSortedListToBST/ConvertSortedLinkedListToBST.md](src/main/java/com/leetcode/binarySearchTree/convertSortedListToBST/ConvertSortedLinkedListToBST.md)
 - [/binarySearchTree/balanceBST/BalanceBST.md](src/main/java/com/leetcode/binarySearchTree/balanceBST/BalanceBST.md)
 - [/binarySearchTree/bstToGreaterSumTree/BSTtoGST.md](src/main/java/com/leetcode/binarySearchTree/bstToGreaterSumTree/BSTtoGST.md)
 - [/replaceWords/ReplaceWords.md](src/main/java/com/leetcode/replaceWords/ReplaceWords.md)
