@@ -4,38 +4,41 @@ public class CountNoOfConsistentStrings extends AbstractParent {
 
     /**
      * Runtime
-     * 5
+     * 4
      * ms
      * Beats
-     * 96.90%
+     * 100.00%
      *
      * Memory
-     * 45.06
+     * 45.28
      * MB
      * Beats
-     * 85.93%
+     * 62.99%
      * @param allowed
      * @param words
      * @return
      */
     @Override
     public int countConsistentStrings(String allowed, String[] words) {
-        int retCount = words.length;
-        char[] charArr = allowed.toCharArray();
+        int retCount = 0;
         boolean[] isPresent = new boolean[26];
-        for (char c: charArr) {
-            isPresent[c - 'a'] = true;
+        for (int i = 0; i < allowed.length(); i++) {
+            isPresent[allowed.charAt(i) - 'a'] = true;
         }
-        outer :
         for (String s : words) {
-            charArr = s.toCharArray();
-            for (char c : charArr) {
-                if (!isPresent[c - 'a']) {
-                    continue outer;
-                }
+            if (isConsistent(s, isPresent)){
+                retCount++;
             }
-            retCount++;
         }
         return retCount;
+    }
+
+    private boolean isConsistent(String s, boolean[] isPresent ) {
+        for (int i = 0; i < s.length(); i++) {
+            if (!isPresent[s.charAt(i) - 'a']) {
+                return false;
+            }
+        }
+        return true;
     }
 }
