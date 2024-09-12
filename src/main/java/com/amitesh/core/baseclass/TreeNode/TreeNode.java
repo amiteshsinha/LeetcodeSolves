@@ -86,8 +86,8 @@ public class TreeNode {
     public static void revPreOrderTraversal(TreeNode node) {
         if (node != null) {
             System.out.println(node.val);
-            preOrderTraversal(node.right);
-            preOrderTraversal(node.left);
+            revPreOrderTraversal(node.right);
+            revPreOrderTraversal(node.left);
         }
     }
 
