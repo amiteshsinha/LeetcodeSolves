@@ -16,6 +16,7 @@ contain -
 - [/xor/countTripletsOfXor/CountTripletsThatCanFormArrOfEqualXor.md](src/main/java/com/leetcode/xor/countTripletsOfXor/CountTripletsThatCanFormArrOfEqualXor.md)
 - [/xor/findOriginalArrOfPrefixXor/FindOrgArrOfPrefixXor.md](src/main/java/com/leetcode/xor/findOriginalArrOfPrefixXor/FindOrgArrOfPrefixXor.md)
 - [/subArrayDivisibleByK/SubArraySumDivisibleByK.md](src/main/java/com/leetcode/subArrayDivisibleByK/SubArraySumDivisibleByK.md)
+- [/countNoOfConsistentStrings/CountNoOfConsistentStrings.md](src/main/java/com/leetcode/countNoOfConsistentStrings/CountNoOfConsistentStrings.md)
 - [/scoreOfAString/ScoreOfAString.md](src/main/java/com/leetcode/scoreOfAString/ScoreOfAString.md)
 - [/minNoOfDaysToMakeBouquets/MinDaysToMakeMBouquets.md](src/main/java/com/leetcode/minNoOfDaysToMakeBouquets/MinDaysToMakeMBouquets.md)
 - [/mergeIntervals/MergeIntervals.md](src/main/java/com/leetcode/mergeIntervals/MergeIntervals.md)
