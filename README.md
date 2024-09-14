@@ -36,6 +36,7 @@ contain -
 - [/singleNumber3/SingleNumber3.md](src/main/java/com/leetcode/singleNumber3/SingleNumber3.md)
 - [/mergeSortedArray/MergeSortedArrays.md](src/main/java/com/leetcode/mergeSortedArray/MergeSortedArrays.md)
 - [/noComplement/NumberComplement.md](src/main/java/com/leetcode/noComplement/NumberComplement.md)
+- [/subarrayWithMaxAnd/SubArrayWithMaxAnd.md](src/main/java/com/leetcode/subarrayWithMaxAnd/SubArrayWithMaxAnd.md)
 - [/findWinnerCircularGame/FindWinnerCircularGame.md](src/main/java/com/leetcode/findWinnerCircularGame/FindWinnerCircularGame.md)
 - [/ransomNote/RansomNote.md](src/main/java/com/leetcode/ransomNote/RansomNote.md)
 - [/waterBottles2/WaterBottles2.md](src/main/java/com/leetcode/waterBottles2/WaterBottles2.md)
