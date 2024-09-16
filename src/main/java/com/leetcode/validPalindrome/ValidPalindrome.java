@@ -26,7 +26,7 @@ public class ValidPalindrome extends AbstractParent {
         int i = 0, j = 0;
         for (; j < charArr.length; j++) {
             int c =  charArr[j];
-            if (c > 64 && c < 91) {
+            if (c > 64 && c < 91) {// is uppercase - then convert to lowercase
                 charArr[j] = (char) (charArr[j] - 'A' + 'a');
             } else if (c > 47 && c < 58 || c > 96 && c < 123) {
                 continue;
