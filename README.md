@@ -35,6 +35,7 @@ contain -
 - [/productOfArrayExceptSelf/ProductOfArrayExceptSelf.md](src/main/java/com/leetcode/productOfArrayExceptSelf/ProductOfArrayExceptSelf.md)
 - [/minIncrementToMakeArrUnique/MinIncrementToMakeArrUnique.md](src/main/java/com/leetcode/minIncrementToMakeArrUnique/MinIncrementToMakeArrUnique.md)
 - [/degreeOfAnArray/DegreeOfAnArray.md](src/main/java/com/leetcode/degreeOfAnArray/DegreeOfAnArray.md)
+- [/uncommonWordsFrom2Sentences/UncommonWord2Sentences.md](src/main/java/com/leetcode/uncommonWordsFrom2Sentences/UncommonWord2Sentences.md)
 - [/singleNumber3/SingleNumber3.md](src/main/java/com/leetcode/singleNumber3/SingleNumber3.md)
 - [/mergeSortedArray/MergeSortedArrays.md](src/main/java/com/leetcode/mergeSortedArray/MergeSortedArrays.md)
 - [/noComplement/NumberComplement.md](src/main/java/com/leetcode/noComplement/NumberComplement.md)
