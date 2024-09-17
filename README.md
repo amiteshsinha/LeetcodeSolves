@@ -119,6 +119,7 @@ contain -
 - [/MinNoOfPushesTypeWord/MinNoOfPushesToTypeWord.md](src/main/java/com/leetcode/MinNoOfPushesTypeWord/MinNoOfPushesToTypeWord.md)
 - [/bestBuyStock/BestBuyStock.md](src/main/java/com/leetcode/bestBuyStock/BestBuyStock.md)
 - [/subsetXORSum/SubsetXorSum.md](src/main/java/com/leetcode/subsetXORSum/SubsetXorSum.md)
+- [/summaryRanges/SummaryRanges.md](src/main/java/com/leetcode/summaryRanges/SummaryRanges.md)
 - [/stoneGame/StoneGame1/StoneGame.md](src/main/java/com/leetcode/stoneGame/StoneGame1/StoneGame.md)
 - [/sqrtx/SquareRootOfX.md](src/main/java/com/leetcode/sqrtx/SquareRootOfX.md)
 - [/heightChecker/HeightChecker.md](src/main/java/com/leetcode/heightChecker/HeightChecker.md)
