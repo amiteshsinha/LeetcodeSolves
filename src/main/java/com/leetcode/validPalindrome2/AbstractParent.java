@@ -63,4 +63,9 @@ public abstract class AbstractParent {
     public void should_give_correct_output9() {
         assertTrue(validPalindrome("aguokepatgbnvfqmgmlcupuufxoohdfpgjdmysgvhmvffcnqxjjxqncffvmhvgsymdjgpfdhooxfuupuculmgmqfvnbgtapekouga"));
     }
+
+    @Test
+    public void should_give_correct_output10() {
+        assertTrue(validPalindrome("acxcybycxcxa"));
+    }
 }

@@ -2,6 +2,7 @@ package com.leetcode.validPalindrome2;
 
 public class ValidPalindrome2 extends AbstractParent {
 
+    //todo - fix it
     @Override
     public boolean validPalindrome(String s) {
         int i = 0, j = s.length() - 1, count = 0, charCount = 0;
@@ -12,12 +13,12 @@ public class ValidPalindrome2 extends AbstractParent {
                 charCount += 2;
             } else {
                 if ((j - i) > 1) {
-                    if (s.charAt(i + 1) == s.charAt(j)) {
-                        i++;
+                    if (s.charAt(i) == s.charAt(j - 1) && s.charAt(i + 1) == s.charAt(j - 2)) {
+                        j--;
                         charCount++;
                         count++;
-                    } else if (s.charAt(i) == s.charAt(j - 1)) {
-                        j--;
+                    } else if (s.charAt(i + 1) == s.charAt(j) && s.charAt(i + 2) == s.charAt(j - 1)) {
+                        i++;
                         charCount++;
                         count++;
                     } else {
