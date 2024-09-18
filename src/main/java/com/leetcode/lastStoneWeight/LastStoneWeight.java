@@ -16,7 +16,6 @@ public class LastStoneWeight {
     }
 
     private static int lastStoneWeight3(int[] stones) {
-        List<Integer> integerList = new ArrayList<>();
         for(int i = stones.length-1; i >= 0 ; i--)
         {
             if(i != 0){
@@ -102,5 +101,10 @@ public class LastStoneWeight {
     @Test
     public void should_return_correct_result5() {
         assert (lastStoneWeight(new int[]{4, 5, 6, 7, 8, 9}) == 1);
+    }
+
+    @Test
+    public void should_return_correct_result7() {
+        assert (lastStoneWeight(new int[]{31,26,33,21,40}) == 9);
     }
 }
