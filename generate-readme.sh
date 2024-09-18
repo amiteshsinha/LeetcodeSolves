@@ -9,6 +9,12 @@ PREFIX_TO_REMOVE="src/main/java/com/leetcode"
 # Start with a header
 echo "# Leetcode Solves" > $MAIN_README
 echo "" >> $MAIN_README
+echo "I have also done the following steps to auto-generate and auto-commit this readme file -" >> $MAIN_README
+echo "1. Copied the generate-readme.sh file from root to the git hooks folder -## cp generate-readme.sh .git/hooks/pre-commit.d/generate-readme.sh" >> $MAIN_README
+echo "2. Added the following line to the .git/hooks/pre-commit file - ## .git/hooks/pre-commit.d/generate_readme.sh"  >> $MAIN_README
+echo "3. Ensure that pre-commit file is executable - ## chmod +x pre-commit"  >> $MAIN_README
+echo "4. Alternatively to manually generate readme you can also run -  ## ./generate-readme.sh  from your terminal"  >> $MAIN_README
+echo "" >> $MAIN_README
 echo "A collection of all the leetcode problems I have solved till date. It will always be a work in progress. What each of the following links
 contain - " >> $MAIN_README
 echo "1. Link to the original leetcode problem"  >> $MAIN_README
