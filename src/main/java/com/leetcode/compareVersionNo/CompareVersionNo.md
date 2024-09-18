@@ -1,6 +1,6 @@
-https://leetcode.com/problems/compare-version-numbers/
+[165. Compare Version Numbers](https://leetcode.com/problems/compare-version-numbers/)
 
-165. Compare Version Numbers
+      Medium
 
 Given two version numbers, version1 and version2, compare them.
 

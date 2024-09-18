@@ -1,6 +1,5 @@
-https://leetcode.com/problems/boats-to-save-people
+[**881. Boats to Save People**](https://leetcode.com/problems/boats-to-save-people)
 
-881. Boats to Save People
 
 You are given an array people where people[i] is the weight of the ith person,
 and an infinite number of boats where each boat can carry a maximum weight of limit.
