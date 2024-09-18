@@ -24,6 +24,8 @@ echo "" >> $MAIN_README
 # Get the absolute path of the current directory
 base_dir=$(pwd)
 
+counter=1
+
 # Find all README.md files in subdirectories, excluding the main README.md
 find . -type f -name "*.md" ! -path "./README.md" | while read -r filepath; do
     # Convert to an absolute path
@@ -39,5 +41,8 @@ find . -type f -name "*.md" ! -path "./README.md" | while read -r filepath; do
     relative_path_without_md=${relative_path_without_prefix%.md}
 
     # Add a link to the subdirectory's README.md, removing the prefix from the path
-    echo "- [${relative_path_without_md%/README.md}]($relative_path)" >> $MAIN_README
+    echo "$counter. [${relative_path_without_md%/README.md}]($relative_path)" >> $MAIN_README
+
+    # Increment the counter
+    ((counter++))
 done
