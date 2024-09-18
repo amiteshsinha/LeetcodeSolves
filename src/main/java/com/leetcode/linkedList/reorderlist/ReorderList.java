@@ -1,4 +1,4 @@
-package com.leetcode.reorder.list;
+package com.leetcode.linkedList.reorderlist;
 
 public class ReorderList extends AbstractParent {
 

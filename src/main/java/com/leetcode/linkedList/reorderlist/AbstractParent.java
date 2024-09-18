@@ -1,4 +1,4 @@
-package com.leetcode.reorder.list;
+package com.leetcode.linkedList.reorderlist;
 
 import org.junit.jupiter.api.Test;
 import org.testng.Assert;

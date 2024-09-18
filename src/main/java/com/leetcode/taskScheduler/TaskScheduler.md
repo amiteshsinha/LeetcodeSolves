@@ -1,6 +1,6 @@
-https://leetcode.com/problems/task-scheduler/
+[**621. Task Scheduler**](https://leetcode.com/problems/task-scheduler/)
 
-621. Task Scheduler
+    Medium    
 
 You are given an array of CPU tasks, each represented by letters A to Z, and a cooling time, n.
 Each cycle or interval allows the completion of one task.

@@ -1,4 +1,6 @@
-https://leetcode.com/problems/pascals-triangle-ii
+[**119. Pascal's Triangle II**](https://leetcode.com/problems/pascals-triangle-ii)
+
+    Easy
 
 Given an integer rowIndex, return the rowIndexth (0-indexed) row of the Pascal's triangle.
 

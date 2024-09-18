@@ -1,6 +1,6 @@
-https://leetcode.com/problems/reorder-list/description/?envType=daily-question&envId=2024-03-19
+[**143. Reorder List**](https://leetcode.com/problems/reorder-list/description/)
 
-143. Reorder List
+    Medium
 
 You are given the head of a singly linked-list. The list can be represented as:
 
