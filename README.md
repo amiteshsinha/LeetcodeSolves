@@ -11,7 +11,7 @@ I have also added a file on how to generate the readme file automatically on eve
 
 ## Leetcode problems : 
 
-1. [How To Use Generate-Readme to auto-update readme file](How To Use Generate-Readme to auto-update readme file.md)
+1. [HowToUseGenerate-ReadmeToAutoUpdateReadmeFile](HowToUseGenerate-ReadmeToAutoUpdateReadmeFile.md)
 2. [LeetCodeRecommendations](LeetCodeRecommendations.md)
 3. [/minBitFlitsConvertNo/MinBitFlitsToConvertNo](src/main/java/com/leetcode/minBitFlitsConvertNo/MinBitFlitsToConvertNo.md)
 4. [/NoOfFlowersInFullBloom/NoOfFlowersFullBloom](src/main/java/com/leetcode/NoOfFlowersInFullBloom/NoOfFlowersFullBloom.md)
