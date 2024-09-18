@@ -16,6 +16,8 @@ echo "1. Link to the original leetcode problem"  >> $MAIN_README
 echo "2. All my approaches"  >> $MAIN_README
 echo "3. Test cases for the problem"  >> $MAIN_README
 echo "" >> $MAIN_README
+echo "I have also added a file on how to generate the readme file automatically on every problem commit"  >> $MAIN_README
+echo "" >> $MAIN_README
 echo "## Leetcode problems : " >> $MAIN_README
 echo "" >> $MAIN_README
 
@@ -33,6 +35,9 @@ find . -type f -name "*.md" ! -path "./README.md" | while read -r filepath; do
     # Remove the prefix path if it exists
     relative_path_without_prefix=${relative_path#"$PREFIX_TO_REMOVE"}
 
+    # Remove the .md suffix from the relative path
+    relative_path_without_md=${relative_path_without_prefix%.md}
+
     # Add a link to the subdirectory's README.md, removing the prefix from the path
-    echo "- [${relative_path_without_prefix%/README.md}]($relative_path)" >> $MAIN_README
+    echo "- [${relative_path_without_md%/README.md}]($relative_path)" >> $MAIN_README
 done
