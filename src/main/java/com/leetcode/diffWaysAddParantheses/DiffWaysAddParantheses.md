@@ -4,7 +4,7 @@
 
 Given a string expression of numbers and operators, return all possible results from computing all the different possible ways to group numbers and operators. You may return the answer in any order.
 
-The test cases are generated such that the output values fit in a 32-bit integer and the number of different results does not exceed 104.
+The test cases are generated such that the output values fit in a 32-bit integer and the number of different results does not exceed 10^4.
 
 
 
@@ -15,6 +15,7 @@ Output: [0,2]
 Explanation:
 ((2-1)-1) = 0
 (2-(1-1)) = 2
+
 Example 2:
 
 Input: expression = "2*3-4*5"
