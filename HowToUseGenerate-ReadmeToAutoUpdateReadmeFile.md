@@ -8,7 +8,7 @@ In order to make my life easier - i decided to auto-generate and auto-commit the
 ~~~
 2. Added the following line to the .git/hooks/pre-commit file
 ~~~
-    .git/hooks/pre-commit.d/generate_readme.sh
+    .git/hooks/pre-commit.d/generate-readme.sh
 ~~~
 3. Ensure that pre-commit file is executable
 ~~~
