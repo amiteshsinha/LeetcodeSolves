@@ -5,6 +5,17 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
+ * Runtime
+ * 23
+ * ms
+ * Beats
+ * 91.74%
+ *
+ * Memory
+ * 56.56
+ * MB
+ * Beats
+ * 49.54%
  * This file was created on 03/10/24 / Thursday
  */
 public class MakeSumDivisibleByP extends AbstractParent {
