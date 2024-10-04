@@ -1,6 +1,5 @@
 package com.leetcode.makeSumDivByP;
 
-import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -10,7 +9,7 @@ import java.util.Map;
  * ms
  * Beats
  * 91.74%
- *
+ * <p>
  * Memory
  * 56.56
  * MB
@@ -24,7 +23,7 @@ public class MakeSumDivisibleByP extends AbstractParent {
     public int minSubarray(int[] nums, int p) {
         int sum = 0;
         for (int i : nums) {
-            sum = (sum + i)%p;
+            sum = (sum + i) % p;
         }
         int target = sum % p, currSum = 0, minLength = nums.length, needed;
         if (target == 0) {
