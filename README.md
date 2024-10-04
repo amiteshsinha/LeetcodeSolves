@@ -2,14 +2,14 @@
 
 This git repo is a collection of all the leetcode problems I have solved till date. It will always be a work in progress. What each of the
 following links
-contain -
+contain - 
 1. Link to the original leetcode problem
 2. All my approaches
 3. Test cases for the problem
 
 I have also added a file on how to generate the readme file automatically on every problem commit
 
-## Leetcode problems :
+## Leetcode problems : 
 
 1. [HowToUseGenerate-ReadmeToAutoUpdateReadmeFile](HowToUseGenerate-ReadmeToAutoUpdateReadmeFile.md)
 2. [HowTo-CreateFileTemplateForAutoGeneratingFiles](HowTo-CreateFileTemplateForAutoGeneratingFiles.md)
