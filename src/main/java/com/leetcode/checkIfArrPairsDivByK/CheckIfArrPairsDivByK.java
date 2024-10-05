@@ -26,7 +26,7 @@ public class CheckIfArrPairsDivByK extends AbstractParent {
 //                max = t / k;
 //                i = (max + 1)*k + i;
 //            }
-            kRemainder[(i%k + k)%k]++;
+            kRemainder[(i % k + k) % k]++;
         }
         if (kRemainder[0]%2 != 0) {
             return false;
