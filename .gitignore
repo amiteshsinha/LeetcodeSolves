@@ -1,0 +1,11 @@
+# Default ignored files
+/build
+/gradle
+/.idea
+/.gradle
+/out
+!/gradlew
+!/gradlew.bat
+#!/.gitignore
+!/gradlew
+!/gradlew.bat
