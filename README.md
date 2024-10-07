@@ -1,5 +1,7 @@
 # Leetcode Solves
 
+My leetcode [profile](https://leetcode.com/u/amiteshsinha88/)
+
 This git repo is a collection of all the leetcode problems I have solved till date. It will always be a work in progress. What each of the
 following links
 contain - 

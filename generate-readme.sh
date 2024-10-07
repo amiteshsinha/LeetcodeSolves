@@ -9,6 +9,8 @@ PREFIX_TO_REMOVE="src/main/java/com/leetcode"
 # Start with a header
 echo "# Leetcode Solves" > $MAIN_README
 echo "" >> $MAIN_README
+echo "My leetcode [profile](https://leetcode.com/u/amiteshsinha88/)" >> $MAIN_README
+echo "" >> $MAIN_README
 echo "This git repo is a collection of all the leetcode problems I have solved till date. It will always be a work in progress. What each of the
 following links
 contain - " >> $MAIN_README
