@@ -1,7 +1,6 @@
 package com.leetcode.minStringLenRemovingSubstrings;
 
 import org.junit.jupiter.api.Test;
-import org.testng.Assert;
 
 import static org.testng.Assert.assertEquals;
 
@@ -26,5 +25,6 @@ public abstract class AbstractParent {
 
     @Test
     public void should_give_correct_output3() {
+        assertEquals(minLength("CCDAABBDCD"), 0);
     }
 }
