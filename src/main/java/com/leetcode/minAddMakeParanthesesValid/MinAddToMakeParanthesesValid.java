@@ -12,7 +12,10 @@ package com.leetcode.minAddMakeParanthesesValid;
  * MB
  * Beats
  * 64.62%
+ *
  * This file was created on 09/10/24 / Wednesday
+ *
+ * @author Amitesh Sinha
  */
 public class MinAddToMakeParanthesesValid extends AbstractParent {
 
