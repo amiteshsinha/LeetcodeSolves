@@ -27,5 +27,7 @@ public abstract class AbstractParent {
 
     @Test
     public void should_give_correct_output_3() {
+        assertEquals(sumPrefixScores(new String[]{"qtcqcmwcin","vkjotbrbzn","eoorlyfche","eoorlyhn","eoorlyfcxk","qfnmjilcom","eoorlyfche","qtcqcmwcnl","qtcqcrpjr"}),
+                new int[]{24,10,34,26,32,13,34,24,20});
     }
 }
