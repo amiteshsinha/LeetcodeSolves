@@ -27,5 +27,6 @@ public abstract class AbstractParent {
 
     @Test
     public void should_give_correct_output_3() {
+        assertEquals(maxMoves(new int[][]{{3,2,4},{2,4,9},{1,1,7}}), 2);
     }
 }
