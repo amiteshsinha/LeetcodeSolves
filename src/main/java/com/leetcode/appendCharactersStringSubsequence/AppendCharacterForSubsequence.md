@@ -1,8 +1,6 @@
-[Link](https://leetcode.com/problems/append-characters-to-string-to-make-subsequence)
+[**2486. Append Characters to String to Make Subsequence**](https://leetcode.com/problems/append-characters-to-string-to-make-subsequence)
 
-2486. Append Characters to String to Make Subsequence
-      
-Medium 
+    Medium 
       
 You are given two strings s and t consisting of only lowercase English letters.
 
@@ -35,6 +33,6 @@ It can be shown that appending any 4 characters to the end of s will never make 
 
 Constraints:
 
-1 <= s.length, t.length <= 105
+1 <= s.length, t.length <= 10^5
 s and t consist only of lowercase English letters.
 

@@ -29,15 +29,9 @@ public class HeightAfterSubtreeRemovalQueriesIter1 extends AbstractParent {
         int[] retArr = new int[queries.length];
 
         for (int i = 0; i < queries.length; i++) {
-            retArr[i] = getMaxDepth(root, queries[i]) - 1;
+            //retArr[i] = getMaxDepth(root, queries[i]) - 1;
         }
         return retArr;
     }
 
-    int getMaxDepth(TreeNode root, int val) {
-        if (root == null || root.val == val) {
-            return 0;
-        }
-        return 1 + Math.max(getMaxDepth(root.left, val), getMaxDepth(root.right, val));
-    }
     }
