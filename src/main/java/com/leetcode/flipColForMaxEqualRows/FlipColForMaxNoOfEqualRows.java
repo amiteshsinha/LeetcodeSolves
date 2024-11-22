@@ -51,24 +51,4 @@ public class FlipColForMaxNoOfEqualRows extends AbstractParent {
         }
         return new String[]{stringBuilderFwd.toString(), stringBuilderFlp.toString()};
     }
-
-    private int countNumberOfRowsWithSameVal(int[][] matrix) {
-        if (matrix[0].length == 1) {
-            return matrix.length;
-        }
-        int retCount = 0;
-        outer:
-        for (int i = 0; i < matrix.length; i++) {
-            if (matrix[i][0] == matrix[i][1]) {
-                int curr = matrix[i][0];
-                for (int j = 2; j < matrix[0].length; j++) {
-                    if (matrix[i][j] != curr) {
-                        continue outer;
-                    }
-                }
-                retCount++;
-            }
-        }
-        return retCount;
-    }
 }
