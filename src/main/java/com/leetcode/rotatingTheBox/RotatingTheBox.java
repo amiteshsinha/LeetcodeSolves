@@ -48,7 +48,9 @@ public class RotatingTheBox extends AbstractParent {
                     stoneCount++;
                 }
             }
-            putStonesOverTheBlock(rotatedBox, stoneCount, j, i);
+            if (stoneCount > 0) {
+                putStonesOverTheBlock(rotatedBox, stoneCount, j, i);
+            }
         }
         return rotatedBox;
     }
