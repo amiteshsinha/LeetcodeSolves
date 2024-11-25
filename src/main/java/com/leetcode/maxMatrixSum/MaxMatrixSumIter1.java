@@ -2,21 +2,21 @@ package com.leetcode.maxMatrixSum;
 
 /**
  * Runtime
- * 5
+ * 4
  * ms
  * Beats
- * 97.24%
+ * 99.19%
  *
  * Memory
- * 54.66
+ * 54.48
  * MB
  * Beats
- * 94.96%
+ * 99.09%
  * This file was created on 25/11/24 / Monday
  *
  * @author Amitesh Sinha
  */
-public class MaxMatrixSum extends AbstractParent {
+public class MaxMatrixSumIter1 extends AbstractParent {
 
     @Override
     public long maxMatrixSum(int[][] matrix) {
@@ -29,27 +29,26 @@ public class MaxMatrixSum extends AbstractParent {
         //Step 2 - if the number of -ve numbers is even - then we can get sum as abs value
         //Step 3 - if the number of -ve numbers are odd then
         //Step 3a- if there is a 0 then we can get sum as abs value else we get sum - 2*min number
-        int n = matrix.length, noOfNegativeNos = 0, minAbsNumber = Integer.MAX_VALUE, temp;
+        //Update - We dont need to keep track whether 0 is present or not. If the number of -ves is odd and there is a 0
+        // then we will deduct sum -2*0 which results in the same answer
+        int n = matrix.length, minAbsNumber = Integer.MAX_VALUE, temp;
+        boolean oddNoOfNegatives = false;
         long sum = 0l;
-        boolean isZeroAbsent = true;
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < n; j++) {
                 temp = matrix[i][j];
                 if (temp < 0) {
-                    noOfNegativeNos++;
+                    oddNoOfNegatives = !oddNoOfNegatives;
+                    temp = -temp;
                 }
-                if (temp == 0) {
-                    isZeroAbsent = false;
-                }
-                temp = Math.abs(temp);
                 if (temp < minAbsNumber) {
                     minAbsNumber = temp;
                 }
                 sum += temp;
             }
         }
-        if (noOfNegativeNos % 2 != 0 && isZeroAbsent) {
-            sum -= 2*minAbsNumber;
+        if (oddNoOfNegatives) {
+            return sum - 2*minAbsNumber;
         }
         return sum;
     }
