@@ -23,7 +23,6 @@ public class addingSpacesInStringIter1 extends AbstractParent {
     @Override
     public String addSpaces(String s, int[] spaces) {
         char[] charArr = new char[s.length() + spaces.length];
-        StringBuilder stringBuilder = new StringBuilder();
         int start = 0;
         for(int index = 0; index < spaces.length; index++) {
             //temp = s.substring(start, spaces[index]);
