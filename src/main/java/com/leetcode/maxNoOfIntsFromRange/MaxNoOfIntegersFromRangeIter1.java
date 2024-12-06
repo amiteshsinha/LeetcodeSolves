@@ -20,10 +20,10 @@ public class MaxNoOfIntegersFromRangeIter1 extends AbstractParent {
      * 96.20%
      *
      * Memory
-     * 45.84
+     * 45.21
      * MB
      * Beats
-     * 46.36%
+     * 98.18%
      * Greedy approach - iterate from 1-n and figure out which min no can be added which is not banned
      * Improvement - instead of set use boolean array - and turns out that's all the fix that you need
      * @param banned
