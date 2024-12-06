@@ -22,6 +22,13 @@ import java.util.stream.Collectors;
  */
 public class MaxNoOfIntegersFromRange extends AbstractParent {
 
+    /**
+     * Greedy approach - iterate from 1-n and figure out which min no can be added which is not banned
+     * @param banned
+     * @param n
+     * @param maxSum
+     * @return
+     */
     @Override
     public int maxCount(int[] banned, int n, int maxSum) {
         int retVal = 0, currSum = 0;
