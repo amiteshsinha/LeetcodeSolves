@@ -1,4 +1,4 @@
-package com.leetcode.findScoreOfArrayAfterMarking;
+package com.leetcode.finalArrayStateAfterKMultiplications;
 
 import org.junit.jupiter.api.Test;
 import org.testng.Assert;
@@ -6,27 +6,26 @@ import org.testng.Assert;
 import static org.testng.Assert.assertEquals;
 
 /**
- * FindScoreOfArrayAfterMarkingElements
+ * FinalArrayKAfterKMultiplications
  * <p>
- * This file was created on 13/12/24 / Friday
+ * This file was created on 16/12/24 / Monday
  *
  * @author Amitesh Sinha
  */
 public abstract class AbstractParent {
-    public abstract long findScore(int[] nums);
+    public abstract int[] getFinalState(int[] nums, int k, int multiplier);
 
     @Test
     public void should_give_correct_output_1() {
-        assertEquals(findScore(new int[]{2,1,3,4,5,2}), 7);
+        assertEquals(getFinalState(new int[]{2,1,3,5,6}, 5, 2), new int[]{8,4,6,5,6});
     }
 
     @Test
     public void should_give_correct_output_2() {
-        assertEquals(findScore(new int[]{2,3,5,1,3,2}), 5);
+        assertEquals(getFinalState(new int[]{1,2}, 3, 4), new int[]{16,8});
     }
 
     @Test
     public void should_give_correct_output_3() {
-        assertEquals(findScore(new int[]{46,21,7,33}), 53);
     }
 }
