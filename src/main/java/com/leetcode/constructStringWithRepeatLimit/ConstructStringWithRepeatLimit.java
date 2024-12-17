@@ -2,16 +2,16 @@ package com.leetcode.constructStringWithRepeatLimit;
 
 /**
  * Runtime
- * 22
+ * 15
  * ms
  * Beats
- * 67.80%
+ * 95.34%
  *
  * Memory
- * 45.58
+ * 45.28
  * MB
  * Beats
- * 76.67%
+ * 96.25%
  * This file was created on 17/12/24 / Tuesday
  *
  * @author Amitesh Sinha
@@ -21,12 +21,13 @@ public class ConstructStringWithRepeatLimit extends AbstractParent {
     @Override
     public String repeatLimitedString(String s, int repeatLimit) {
         int[] charFreq = new int[26];
-        int charCount = 0, maxCharIndex = 25;
+        int charCount = 0, maxCharIndex = 25, writeIndex = 0;
         for(int i = 0; i < s.length(); i++) {
             charFreq[s.charAt(i) - 'a']++;
             charCount++;
         }
-        StringBuilder sb = new StringBuilder();
+        // replaced StringBuilder with charArray and that brought runtime down from 22 ms to 15 ms
+        char[] sb = new char[s.length()];
         //step 2 - append characters with frequency less than or equal to repeatLimit
         //need to remember what the last character was - so we need to start from end again
         while (charCount > 0) {
@@ -36,11 +37,11 @@ public class ConstructStringWithRepeatLimit extends AbstractParent {
                     break;
                 }
             }
-            if (sb.length() > 0 && sb.charAt(sb.length() - 1) == (char) ('a' + maxCharIndex)) {
-                break;
+            if (writeIndex > 0 && sb[writeIndex - 1] == (char) ('a' + maxCharIndex)) {
+                return String.valueOf(sb, 0, writeIndex);
             }
             for(int i = repeatLimit; i > 0 && charFreq[maxCharIndex] > 0; i--) {
-                sb.append((char) ('a' + maxCharIndex));
+                sb[writeIndex++] = ((char) ('a' + maxCharIndex));
                 charCount--;
                 charFreq[maxCharIndex]--;
             }
@@ -51,14 +52,14 @@ public class ConstructStringWithRepeatLimit extends AbstractParent {
             //step 3 - find the next character and append one of it to the result
             for (int i = maxCharIndex - 1; i >=0; i--) {
                 if (charFreq[i] > 0) {
-                    sb.append((char) ('a' + i));
+                    sb[writeIndex++] = ((char) ('a' + i));
                     charFreq[i]--;
                     charCount--;
                     break;
                 }
             }
         }
-        return sb.toString();
+        return String.valueOf(sb);
     }
 
 }
